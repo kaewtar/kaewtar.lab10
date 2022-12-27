@@ -49,7 +49,7 @@ int main(){
 	tt = pb + itr;
 	cout << setw(13) << left << tt;
 
-	if(tt <= pay ) pm = tt ;
+	if(nb < 100 ) pm = tt ;
 	else pm = pay;
 	cout << setw(13) << left << pm;
 
